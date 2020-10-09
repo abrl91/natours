@@ -22,11 +22,11 @@
             <div class="navigation__background">&nbsp;</div>
             <nav class="navigation__nav">
                 <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">about</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">your benefits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">book now</a></li>
+                    <li class="navigation__item"><a href="#about" class="navigation__link">about</a></li>
+                    <li class="navigation__item"><a href="#features" class="navigation__link">your benefits</a></li>
+                    <li class="navigation__item"><a href="#tours" class="navigation__link">popular tours</a></li>
+                    <li class="navigation__item"><a href="#stories" class="navigation__link">stories</a></li>
+                    <li class="navigation__item"><a href="#book" class="navigation__link">book now</a></li>
                 </ul>
             </nav>
         </div>
@@ -42,13 +42,13 @@
                     <span class="heading-primary--sum">is where life happens</span>
                 </h1>
 
-                <a href="#" class="btn btn--white btn--animated">Discover Our Tours</a>
+                <a href="#tours" class="btn btn--white btn--animated">Discover Our Tours</a>
             </div>
 
         </header>
 
         <main>
-            <section class="section-about">
+            <section id="about" class="section-about">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Exciting tours for adventurous people</h2>
                 </div>
@@ -76,7 +76,7 @@
                 </div>
             </section>
 
-            <section class="section-features">
+            <section id="features" class="section-features">
 
                 <div class="row">
                     <div class="col-1-of-4">
@@ -118,7 +118,7 @@
                 </div>
             </section>
 
-            <section class="section-tours">
+            <section id="tours" class="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">Most pupolars tours</h2>
                 </div>
@@ -150,7 +150,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -181,7 +181,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -212,7 +212,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now</a>
+                                    <a href="#popup" class="btn btn--white">Book now</a>
                                 </div>
                             </div>
                         </div>
@@ -225,7 +225,7 @@
 
             </section>
 
-            <section class="section-stories">
+            <section id="stories" class="section-stories">
                 <div class="bg-video">
                     <video class="bg-video__content" autoplay muted loop>
                         <source src="img/video.mp4" type="video/mp4">
@@ -273,7 +273,7 @@
 
             </section>
 
-            <section class="section-book">
+            <section id="book" class="section-book">
                 <div class="row">
                     <div class="book">
                         <div class="book__form">
@@ -341,7 +341,23 @@
             </div>
         </footer>
 
-
+        <div id="popup" class="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Important &ndash; Please read these terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. consectetur adipiscing elit.
+                    </p>
+                    <a href="#" class="btn btn--green">Book Now</a>
+                </div>
+            </div>
+        </div>
 
 
 <!--    <section class="grid-test">-->
