@@ -4,7 +4,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: $color-gray-dark;
-  padding: 3rem;
+
 }
 
 .heading-primary {
@@ -22,9 +22,14 @@ body {
 
     animation-name: moveInLeft;
     animation-duration: 2s;
+
+    @include respond(phone) {
+      font-size: 5rem;
+      letter-spacing: 1rem;
+    }
   }
 
-  &--sum {
+  &--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
@@ -32,6 +37,10 @@ body {
 
     animation-name: moveInRight;
     animation-duration: 2s;
+
+    @include respond(phone) {
+      letter-spacing: .5rem;
+    }
   }
 }
 
@@ -45,6 +54,14 @@ body {
   color: transparent;
   letter-spacing: .2rem;
   transition: all .2s;
+
+  @include respond(tablet-port) {
+    font-size: 3rem;
+  }
+
+  @include respond(phone) {
+    font-size: 2.5rem;
+  }
 
   &:hover {
     transform: skewY(2deg) skewX(2deg) scale(1.1);
